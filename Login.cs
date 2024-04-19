@@ -19,7 +19,8 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("aasda");
+            MessageBox.Show("登录成功");
+            this.DialogResult = DialogResult.OK;
         }
     }
 }

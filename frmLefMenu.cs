@@ -77,15 +77,15 @@ namespace WindowsFormsApplication1
             ErrorData.Rows.Add("0", "-1", "root");
             ErrorData.Rows.Add("1", "0", "学生管理");
             ErrorData.Rows.Add("2", "0", "教师管理");
-            ErrorData.Rows.Add("3", "1", "学生信息录入", "WindowsFormsApplication1", "WindowsFormsApplication1.Form1");
-            ErrorData.Rows.Add("4", "2", "教师信息录入", "WindowsFormsApplication1", "WindowsFormsApplication1.Form2");
+            ErrorData.Rows.Add("3", "1", "学生信息录入", "WindowsFormsApplication1", "WindowsFormsApplication1.View.Form1");
+            ErrorData.Rows.Add("4", "2", "教师信息录入", "WindowsFormsApplication1", "WindowsFormsApplication1.View.Form2");
             ErrorData.Rows.Add("5", "0", "View");
-            ErrorData.Rows.Add("6", "5", "Form6", "WindowsFormsApplication2", "WindowsFormsApplication2.View.Form6");
-            ErrorData.Rows.Add("7", "5", "Form7", "WindowsFormsApplication2", "WindowsFormsApplication2.View.Form7");
-            ErrorData.Rows.Add("8", "5", "Form8", "WindowsFormsApplication2", "WindowsFormsApplication2.View.Form8");
-            ErrorData.Rows.Add("9", "5", "Form9", "WindowsFormsApplication2", "WindowsFormsApplication2.View.Form9");
-            ErrorData.Rows.Add("10", "5", "Form10", "WindowsFormsApplication2", "WindowsFormsApplication2.View.Form10");
-            ErrorData.Rows.Add("11", "5", "Demo", "WindowsFormsApplication2", "WindowsFormsApplication2.View.Demo");
+            ErrorData.Rows.Add("6", "5", "Form6", "WindowsFormsApplication1", "WindowsFormsApplication1.View.Form1");
+            ErrorData.Rows.Add("7", "5", "Form7", "WindowsFormsApplication1", "WindowsFormsApplication1.View.Form2");
+            ErrorData.Rows.Add("8", "5", "Form8", "WindowsFormsApplication1", "WindowsFormsApplication1.View.Form1");
+            ErrorData.Rows.Add("9", "5", "Form9", "WindowsFormsApplication1", "WindowsFormsApplication1.View.Form2");
+            ErrorData.Rows.Add("10", "5", "Form10", "WindowsFormsApplication1", "WindowsFormsApplication1.View.Form1");
+            ErrorData.Rows.Add("11", "5", "Demo", "WindowsFormsApplication1", "WindowsFormsApplication1.View.Form2");
 
             return ErrorData;
         }
@@ -211,6 +211,7 @@ namespace WindowsFormsApplication1
             //ErrorData.Columns.Add("typeName", System.Type.GetType("System.String"));
 
             List<int> ID = new List<int>();
+            ID.Add(0);
             foreach (DataRow w in newdt.Rows)
             {
                 //var find2 = MenuDataTable.Select($" ID = '{w["ParentID"]}' ");

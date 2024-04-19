@@ -20,8 +20,6 @@ E:\2024\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
 E:\2024\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
 E:\2024\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.dll
 E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.AssemblyReference.cache
-E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
-E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
 E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmLefMenu.resources
 E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Index.resources
 E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
@@ -30,3 +28,6 @@ E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreC
 E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
 E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.View.Form1.resources
+E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.View.Form2.resources
+E:\2024\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Login.resources

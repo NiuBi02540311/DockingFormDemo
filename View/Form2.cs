@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace WindowsFormsApplication1.View
 {
-    public partial class Form1 : WeifenLuo.WinFormsUI.Docking.DockContent
+    public partial class Form2 : WeifenLuo.WinFormsUI.Docking.DockContent
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
