@@ -286,7 +286,7 @@ namespace WindowsFormsApplication1
         {
             if (MessageBox.Show($"确认要退出系统？", "善意提醒", MessageBoxButtons.YesNo) == DialogResult.No) return;
                 CloseAllContentsFlag = true;
-                SaveConfigXml();
+            Task.Run(() => { SaveConfigXml(); });
                 Thread.Sleep(1000);
                 Application.Exit();
              
